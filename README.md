@@ -47,6 +47,7 @@ ld -m elf_1386 locker.o _o locker
 4. User can also lock a file (overwrite/create a new one).
 
 🤝 Contributing
+
 If you'd like to improve this file locker or add features (e.g., dynamic password, GUI wrapper, etc.), feel free to fork the repo and send a pull request!
 
 📄 License
