@@ -36,6 +36,7 @@ nasm -f elf32 locker.asm -o locker.o
 ld -m elf_1386 locker.o _o locker
 
 ./locker
+
 🔒 How It Works
 
 1. The program prompts the user for a password (admin by default).
