@@ -30,7 +30,29 @@ This project is a simple **password-protected file locker** developed in **NASM 
 ![image alt](https://github.com/user-attachments/assets/bc225e7f-dcc2-4fc9-b7f5-eaf21b196f6c)
 🛠️ Compilation & Execution
 To compile and run the program:
-nasm -f elf32 locker.asm -o locker.o
-ld 
-./locker
 
+nasm -f elf32 locker.asm -o locker.o
+
+ld -m elf_1386 locker.o _o locker
+
+./locker
+🔒 How It Works
+
+1. The program prompts the user for a password (admin by default).
+
+2. Upon successful login, it shows a list of available text files.
+
+3. User can select a file to read its contents (Unlock).
+
+4. User can also lock a file (overwrite/create a new one).
+
+🤝 Contributing
+If you'd like to improve this file locker or add features (e.g., dynamic password, GUI wrapper, etc.), feel free to fork the repo and send a pull request!
+
+📄 License
+This project is open source and available under the MIT License.
+
+
+## 💻 Author
+
+- Developed by **Bisma**
