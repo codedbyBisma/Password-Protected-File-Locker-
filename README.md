@@ -26,4 +26,4 @@ This project is a simple **password-protected file locker** developed in **NASM 
     ├── screenshot1.png
     ├── screenshot2.png
 ## 📷 Screenshots
-
+https://github.com/codedbyBisma/Password-Protected-File-Locker-/blob/95d30e2d90d2278457b2ce1fb0ac3002b8d5f985/screenshot%201.PNG
