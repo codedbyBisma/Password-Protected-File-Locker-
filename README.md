@@ -27,3 +27,5 @@ This project is a simple **password-protected file locker** developed in **NASM 
     ├── screenshot2.png
 ## 📷 Screenshots
 ![image alt](https://github.com/user-attachments/assets/ecdd1abf-92bb-48c7-be0b-a54471a8c82f)
+![image alt](https://github.com/user-attachments/assets/bc225e7f-dcc2-4fc9-b7f5-eaf21b196f6c)
+
