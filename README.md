@@ -16,19 +16,30 @@ This project is a simple **password-protected file locker** developed in **NASM 
 ---
 
 ## 📁 Project Structure
+
 📦 Password-Protected-File-Locker/
+
 ├── locker.asm
+
 ├── bisma.txt
+
 ├── secret.txt
+
 ├── data.txt
-├── README.md
+
+├── README.
+
 └── images/
+
     ├── screenshot1.png
+    
     ├── screenshot2.png
+    
 ## 📷 Screenshots
 ![image alt](https://github.com/user-attachments/assets/ecdd1abf-92bb-48c7-be0b-a54471a8c82f)
 ![image alt](https://github.com/user-attachments/assets/bc225e7f-dcc2-4fc9-b7f5-eaf21b196f6c)
 🛠️ Compilation & Execution
+
 To compile and run the program:
 
 nasm -f elf32 locker.asm -o locker.o
