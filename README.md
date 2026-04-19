@@ -39,7 +39,7 @@ Password-Protected-File-Locker/
 ![image alt](https://github.com/user-attachments/assets/ecdd1abf-92bb-48c7-be0b-a54471a8c82f)
 ![image alt](https://github.com/user-attachments/assets/bc225e7f-dcc2-4fc9-b7f5-eaf21b196f6c) 
 
-Compilation & Execution
+## Compilation & Execution
 
 To compile and run the program:
 
@@ -49,21 +49,21 @@ ld -m elf_1386 locker.o _o locker
 
 ./locker
 
-How It Works
+## How It Works
 
 1. The program prompts the user for a password (admin by default).
 
 2. Upon successful login, it shows a list of available text files.
 
-3. User can select a file to read its contents (Unlock).
+3. The user can select a file to read its contents (Unlock).
 
-4. User can also lock a file (overwrite/create a new one).
+4. The user can also lock a file (overwrite/create a new one).
 
-Contributing
+## Contributing
 
 If you'd like to improve this file locker or add features (e.g., dynamic password, GUI wrapper, etc.), feel free to fork the repo and send a pull request!
 
-License
+## License
 This project is open source and available under the MIT License.
 
 
